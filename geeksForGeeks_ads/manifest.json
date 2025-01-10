@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "GeeksForGeeks focused",
+    "version": "1.0",
+    "description": "Hide the aside and advertising elements",
+    "icons": {
+        "512": "./images/GeeksforGeeks_512.png",
+        "64": "./images/GeeksforGeeks_64.png",
+        "48": "./images/GeeksforGeeks_48.png",
+        "32": "./images/GeeksforGeeks_32.png",
+        "24": "./images/GeeksforGeeks_24.png",
+        "16": "./images/GeeksforGeeks_16.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "matches": [
+                "https://www.geeksforgeeks.org/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
