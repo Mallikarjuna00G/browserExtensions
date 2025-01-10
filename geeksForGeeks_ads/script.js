@@ -7,7 +7,6 @@ function gfg() {
     const leftBar = document.querySelector(".leftBar");
     const rightBar = document.querySelector(".rightBar");
     
-    const bottomAd = document.querySelector("#GFG_AD_Desktop_Stickyunit_1x1");
     if(rightBar) {
         // console.log("Left Bar detected");
         rightBar.style.display = "none";
@@ -21,10 +20,19 @@ function gfg() {
         }
     }
     
+    const bottomAd = document.querySelector("#GFG_AD_Desktop_Stickyunit_1x1");
+
     if(bottomAd) {
         // console.log("Bottom ad bar detected.")
         bottomAd.style.display = "none";
         bottomAd.parentNode.removeChild(bottomAd);
+    }
+
+    const topAd = document.querySelector("#GFG_AD_gfg_direct_728x90");
+    if(topAd) {
+        // console.log("top ad bar detected.");
+        topAd.style.display = "none";
+        topAd.parentNode.removeChild(topAd);
     }
 }
 
