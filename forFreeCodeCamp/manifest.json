@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "for freeCodeCamp",
+    "version": "1.0",
+    "description": "Decorate the contents of the pages from https://freecodecamp.org/ site",
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "matches": [
+                "https://www.freecodecamp.org/*"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "./forFreeCodeCamp.html"
+    }
+}

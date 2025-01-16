@@ -8,3 +8,4 @@ Mostly to learn writing browser extensions.
     2. 1.1: Change the reading speed to know the reading time.
 3. [Eloquent Javascript decorator](./eloquentJSDecorator/): Extension to decorate the [https://eloquentjavascript.net/](https://eloquentjavascript.net/) webpages. For example, border for code blocks, highlight keywords in the sentences. And others....
 4. [GeeksForGeeks](./geeksForGeeks_ads/): Extension to remove aside and advertisement parts of the page.
+5. [freeCodeCamp](./forFreeCodeCamp/): Tries to reduce the font size of the texts on the pages.
